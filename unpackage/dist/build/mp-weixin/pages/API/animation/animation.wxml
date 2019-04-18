@@ -1,0 +1,2 @@
+<import src="./animation.vue.wxml" />
+    <template is="4de8a64b" data="{{ ...$root['0'], $root }}"/>

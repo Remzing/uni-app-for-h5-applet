@@ -1,0 +1,2 @@
+<template name="a2614f8c"><view class="_view root {{ h[ 0 ].rcl }}"><view class="_view uni-padding-wrap"><view class="_view uni-title">这是选项卡页面跳转详情页面的演示，下面是页面跳转时传递过来的标题：</view><view class="_view uni-title">{{ h[ 5 ].t }}</view></view></view></template>
+<template is="a2614f8c" data="{{ ...$root['0'], $root }}"/>

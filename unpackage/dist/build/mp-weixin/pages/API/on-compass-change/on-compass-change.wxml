@@ -1,0 +1,2 @@
+<import src="./on-compass-change.vue.wxml" />
+    <template is="0d662ff5" data="{{ ...$root['0'], $root }}"/>

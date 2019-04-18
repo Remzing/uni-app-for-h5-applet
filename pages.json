@@ -1,0 +1,496 @@
+{
+    "pages" : [
+        // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/tabBar/index/index",
+            "style" : {
+                "navigationBarTitleText" : "社宾"
+            }
+        },
+        {
+            "path" : "pages/tabBar/connection/connection",
+            "style" : {
+                "navigationBarTitleText" : "人脉"
+            }
+        },
+        {
+            "path" : "pages/tabBar/msg/msg",
+            "style" : {
+                "navigationBarTitleText" : "消息"
+            }
+        },
+        {
+            "path" : "pages/tabBar/my/my",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        }
+        
+        
+        
+    ],
+    "subPackages" : [
+        {
+            "root" : "pages/my",
+            "pages" : [
+                {
+                    "path" : "jiaoYiMingXi/jiaoYiMingXi",
+                    "style" : {
+                        "navigationBarTitleText" : "交易明细"
+                    }
+                },{
+                    "path" : "bangDingJieGuo/bangDingJieGuo",
+                    "style" : {
+                        "navigationBarTitleText" : "绑定结果"
+                    }
+                },{
+                    "path" : "woDeYHK/woDeYHK",
+                    "style" : {
+                        "navigationBarTitleText" : "我的银行卡"
+                    }
+                }
+                ,{
+                    "path" : "tianJiaYHK/tianJiaYHK",
+                    "style" : {
+                        "navigationBarTitleText" : "添加银行卡"
+                    }
+                }
+                ,{
+                    "path" : "bangDingYHK/bangDingYHK",
+                    "style" : {
+                        "navigationBarTitleText" : "绑定银行卡"
+                    }
+                }
+                ,{
+                    "path" : "yanZhengMa/yanZhengMa",
+                    "style" : {
+                        "navigationBarTitleText" : "验证码"
+                    }
+                },{
+                    "path" : "bianJiZiLiao/bianJiZiLiao",
+                    "style" : {
+                        "navigationBarTitleText" : "编辑资料"
+                    }
+                },{
+                    "path" : "xuanZeHangYe/xuanZeHangYe",
+                    "style" : {
+                        "navigationBarTitleText" : "选择行业"
+                    }
+                },{
+                    "path" : "qianBao/qianBao",
+                    "style" : {
+                        "navigationBarTitleText" : "我的钱包"
+                    }
+                },{
+                    "path" : "tiXian/tiXian",
+                    "style" : {
+                        "navigationBarTitleText" : "提现"
+                    }
+                },{
+                    "path" : "woDeJianZheng/woDeJianZheng",
+                    "style" : {
+                        "navigationBarTitleText" : "提现"
+                    }
+                },{
+                    "path" : "woDeDongTai/woDeDongTai",
+                    "style" : {
+                        "navigationBarTitleText" : "我的动态"
+                    }
+                },{
+                    "path" : "sheZi/sheZi",
+                    "style" : {
+                        "navigationBarTitleText" : "设置"
+                    }
+                },{
+                    "path" : "jieShao/jieShao",
+                    "style" : {}
+                },{
+										"path" : "huiYuan/huiYuan",
+										"style" : {
+										    "navigationBarTitleText" : "会员中心"
+										}
+								},{
+										"path" : "fangKe/fangKe",
+										"style" : {
+										    "navigationBarTitleText" : "访客"
+										}
+								},{
+										"path" : "yingXiangLi/yingXiangLi",
+										"style" : {
+										    "navigationBarTitleText" : "影响力"
+										}
+								}
+								,{
+										"path" : "editInfo/editInfo",
+										"style" : {
+										    "navigationBarTitleText" : "编辑"
+										}
+								}
+								,{
+								    "path" : "renZheng/renZheng",
+								    "style" : {
+								        "navigationBarTitleText" : "认证"
+								    }
+								}
+								,{
+								    "path" : "renZhengId/renZhengId",
+								    "style" : {
+								        "navigationBarTitleText" : "实名认证"
+								    }
+								}
+								,{
+										"path" : "jingLiRenZheng/jingLiRenZheng",
+										"style" : {
+										    "navigationBarTitleText" : "职业经历"
+										}
+								}
+								,{
+										"path" : "jingLiAdd/jingLiAdd",
+										"style" : {
+										    "navigationBarTitleText" : "经历认证"
+										}
+								}
+								,{
+										"path" : "jingLiJiaoYu/jingLiJiaoYu",
+										"style" : {
+										    "navigationBarTitleText" : "教育经历"
+										}
+								}
+								,{
+								    "path" : "jingLiJiaoYuAdd/jingLiJiaoYuAdd",
+								    "style" : {
+								        "navigationBarTitleText" : "经历认证"
+								    }
+								}
+								,{
+										"path" : "zhangHaoAnQuan/zhangHaoAnQuan",
+										"style" : {
+										    "navigationBarTitleText" : "账号安全"
+										}
+								}
+								,{
+										"path" : "xiuGai/xiuGai",
+										"style" : {
+										    "navigationBarTitleText" : "修改密码"
+										}
+								}
+								,{
+								    "path" : "changJianWenTi/changJianWenTi",
+								    "style" : {
+								        "navigationBarTitleText" : "常见问题"
+								    }
+								}
+								,{
+								    "path" : "xieYi/xieYi",
+								    "style" : {
+								        "navigationBarTitleText" : "协议"
+								    }
+								}
+								,{
+								    "path" : "guanYuWoMen/guanYuWoMen",
+								    "style" : {
+								        "navigationBarTitleText" : "关于社宾"
+								    }
+								}
+								,{
+								    "path" : "yiJianFanKui/yiJianFanKui",
+								    "style" : {
+								        "navigationBarTitleText" : "意见反馈"
+								    }
+								}
+            ]
+        },
+        {
+            "root" : "pages/message",
+            "pages" : [
+                {
+                    "path" : "xiaoZhuShou/xiaoZhuShou",
+                    "style" : {
+                        "navigationBarTitleText" : "活动小助手"
+                    }
+                },{
+                    "path" : "sheBinXZS/sheBinXZS",
+                    "style" : {
+                        "navigationBarTitleText" : "社宾小助手"
+                    }
+                },{
+                    "path" : "hongBao/hongBao",
+                    "style" : {
+                        "navigationBarTitleText" : "红包",
+                        "navigationBarBackgroundColor" : "#fc5433"
+                    }
+                }
+            ]
+        },
+        {
+            "root" : "pages/news",
+            "pages" : [
+                {
+                    "path" : "newsDetail/newsDetail",
+                    "style" : {
+                        "navigationBarTitleText" : "动态详情"
+                    }
+                },
+                {
+                    "path" : "hudong/hudong",
+                    "style" : {
+                        "navigationBarTitleText" : "互动过的人"
+                    }
+                },
+                {
+                    "path" : "toutiao/toutiao",
+                    "style" : {
+                        "navigationBarTitleText" : "头条"
+                    }
+                },
+                {
+                    "path" : "articleDetail/articleDetail",
+                    "style" : {
+                        "navigationBarTitleText" : "文章详情"
+                    }
+                }
+            ]
+        },
+        {
+            "root" : "pages/association",
+            "pages" : [
+                {
+                    "path" : "myAssociation/myAssociation",
+                    "style" : {
+                        "navigationBarTitleText" : "我的社群"
+                    }
+                },
+                {
+                    "path" : "selectAsso/selectAsso",
+                    "style" : {
+                        "navigationBarTitleText" : "选择社群"
+                    }
+                },
+                {
+                    "path" : "joinAsso/joinAsso",
+                    "style" : {
+                        "navigationBarTitleText" : "确认加入社群"
+                    }
+                },
+                {
+                    "path" : "assoPay/assoPay",
+                    "style" : {
+                        "navigationBarTitleText" : "会费支付"
+                    }
+                },
+                {
+                    "path" : "joinSuccess/joinSuccess",
+                    "style" : {
+                        "navigationBarTitleText" : "加入成功"
+                    }
+                },
+                {
+                    "path" : "beFaQiRen/beFaQiRen",
+                    "style" : {
+                        "navigationBarTitleText" : "发起人"
+                    }
+                },
+                {
+                    "path" : "mailList/mailList",
+                    "style" : {
+                        "navigationBarTitleText" : "通讯录"
+                    }
+                },
+                {
+                    "path" : "moreApp/moreApp",
+                    "style" : {
+                        "navigationBarTitleText" : "更多应用"
+                    }
+                },
+                {
+                    "path" : "assoPoster/assoPoster",
+                    "style" : {
+                        "navigationBarTitleText" : "社群海报"
+                    }
+                },
+                {
+                    "path" : "leader/leader",
+                    "style" : {
+                        "navigationBarTitleText" : "领导"
+                    }
+                },
+                {
+                    "path" : "selectMember/selectMember",
+                    "style" : {
+                        "navigationBarTitleText" : "选择会员"
+                    }
+                },
+                {
+                    "path" : "finance/finance",
+                    "style" : {
+                        "navigationBarTitleText" : "财务"
+                    }
+                },
+                {
+                    "path" : "shenhe/shenhe",
+                    "style" : {
+                        "navigationBarTitleText" : "审核"
+                    }
+                },
+                {
+                    "path" : "setup/setup",
+                    "style" : {
+                        "navigationBarTitleText" : "设置"
+                    }
+                },
+                {
+                    "path" : "setupFee/setupFee",
+                    "style" : {
+                        "navigationBarTitleText" : "设置费用"
+                    }
+                },
+                {
+                    "path" : "groupSend/groupSend",
+                    "style" : {
+                        "navigationBarTitleText" : "群发"
+                    }
+                },
+                {
+                    "path" : "reportForm/reportForm",
+                    "style" : {
+                        "navigationBarTitleText" : "报表"
+                    }
+                },
+                {
+                    "path" : "jiaBin/jiaBin",
+                    "style" : {
+                        "navigationBarTitleText" : "嘉宾列表"
+                    }
+                },
+                {
+                    "path" : "jianZheng/jianZheng",
+                    "style" : {
+                        "navigationBarTitleText" : "见证"
+                    }
+                },
+                {
+                    "path" : "faBuJianZ/faBuJianZ",
+                    "style" : {
+                        "navigationBarTitleText" : "发起见证"
+                    }
+                },
+                {
+                    "path" : "jianZhengDetail/jianZhengDetail",
+                    "style" : {
+                        "navigationBarTitleText" : "见证详情"
+                    }
+                },
+                {
+                    "path" : "jianZhengJiLu/jianZhengJiLu",
+                    "style" : {
+                        "navigationBarTitleText" : "见证详细记录"
+                    }
+                },
+                {
+                    "path" : "jianzSet/jianzSet",
+                    "style" : {
+                        "navigationBarTitleText" : "设置"
+                    }
+                },
+                {
+                    "path" : "touPiao/touPiao",
+                    "style" : {
+                        "navigationBarTitleText" : "投票"
+                    }
+                },{
+                    "path" : "touPiaoOper/touPiaoOper",
+                    "style" : {
+                        "navigationBarTitleText" : "投票"
+                    }
+                },{
+                    "path" : "paiHangBang/paiHangBang",
+                    "style" : {
+                        "navigationBarTitleText" : "排行榜"
+                    }
+                },{
+                    "path" : "souSuo/souSuo",
+                    "style" : {
+                        "navigationBarTitleText" : "搜索"
+                    }
+                },{
+                    "path" : "souSuoResult/souSuoResult",
+                    "style" : {
+                        "navigationBarTitleText" : "搜索结果"
+                    }
+                },{
+                    "path" : "citySelect/citySelect",
+                    "style" : {
+                        "navigationBarTitleText" : "城市选择"
+                    }
+                },{
+                    "path" : "shenQingFaQiRen/shenQingFaQiRen",
+                    "style" : {
+                        "navigationBarTitleText" : "成为社群发起人"
+                    }
+                }
+            ]
+        },
+        {
+            "root" : "pages/template",
+            "pages" : [
+                {
+                    "path" : "number-box/number-box",
+                    "style" : {
+                        "navigationBarTitleText" : "数字输入框"
+                    }
+                }
+            ]
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "社宾",
+        "navigationBarBackgroundColor" : "#5788ff",
+        "backgroundColor" : "#ffffff",
+        "mp-alipay" : {
+            "titleBarColor" : "#FFFFFF"
+        }
+    },
+    "tabBar" : {
+        "color" : "#353535",
+        "selectedColor" : "#5788ff",
+        "borderStyle" : "white",
+        "backgroundColor" : "#FFFFFF",
+        "list" : [
+            {
+                "pagePath" : "pages/tabBar/index/index",
+                "iconPath" : "static/nav/home.png",
+                "selectedIconPath" : "static/nav/home-on.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/tabBar/connection/connection",
+                "iconPath" : "static/nav/renm.png",
+                "selectedIconPath" : "static/nav/renm-on.png",
+                "text" : "人脉"
+            },
+            {
+                "pagePath" : "pages/tabBar/msg/msg",
+                "iconPath" : "static/nav/msg.png",
+                "selectedIconPath" : "static/nav/msg-on.png",
+                "text" : "消息"
+            },
+            {
+                "pagePath" : "pages/tabBar/my/my",
+                "iconPath" : "static/nav/my.png",
+                "selectedIconPath" : "static/nav/my-on.png",
+                "text" : "我的"
+            }
+        ]
+    },
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

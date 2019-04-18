@@ -1,0 +1,2 @@
+<template name="4d1aa604"><view class="_view {{ h[ 0 ].rcl }}"><web-view class="_web-view" src="{{ h[ 1 ][ 'src' ] }}" data-cid="{{ _c || c }}" data-hid="{{ 1 }}" onMessag="_pe"></web-view></view></template>
+<template is="4d1aa604" data="{{ ...$root['0'], $root }}"/>

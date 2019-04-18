@@ -1,0 +1,10 @@
+<import src="/components/uni-icon.vue.axml" />
+
+<template name="left_0" parent="45e2f6e7"><block class="_block"><view class="_view city"><text class="_text">{{ h[ 2019 + _t ].t }}</text><template is="3f7d95fe" data="{{ ...$root[ cp + 2 + _t ], $root, _t: _t || '' }}" /></view></block></template>
+
+<template name="default_1" parent="45e2f6e7"><view class="_view input-view"><template is="3f7d95fe" data="{{ ...$root[ cp + 3 + _t ], $root, _t: _t || '' }}" /><input class="_input input" confirm-type="search" type="text" placeholder="输入搜索关键词" data-cid="{{ _c || c }}" data-hid="{{ 4025 + _t }}" onConfirm="_pe"></input></view></template>
+
+<template name="default_2" parent="1d8cb9ad"><view class="_view uni-center" style="font-size:0"><image class="_image image" style="width:150rpx; height:150rpx" mode="widthFix" src="../../../static/uni.png"></image></view><view class="_view uni-common-mt uni-helllo-text uni-center">消息内容使用 slot 形式定义</view></template>
+
+<template name="default_3" parent="5538eaf3"><view class="_view" style="padding:30rpx"><view class="_view uni-title">抽屉式导航</view><view class="_view uni-helllo-text">这是抽屉式导航组件使用示例，你可以在这里放置任何内容。关闭抽屉式导航有多种方式：<text class="_text">\n1.点击本导航之外的任意位置；</text><text class="_text">\n2.点击如下红色按钮；</text></view><view class="_view uni-common-mt"><button class="_button button" type="warn" size="mini" data-cid="{{ _c || c }}" data-hid="{{ 3023 + _t }}" onTap="_pe">关闭抽屉式导航</button></view><view class="_view uni-list uni-common-mt"><view class="_view uni-list-cell" hover-class="uni-list-cell-hover"><view class="_view uni-list-cell-navigate uni-navigate-right" data-cid="{{ _c || c }}" data-hid="{{ 3027 + _t }}" onTap="_pe">Item1</view></view><view class="_view uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover"><view class="_view uni-list-cell-navigate uni-navigate-right" data-cid="{{ _c || c }}" data-hid="{{ 3030 + _t }}" onTap="_pe">Item2</view></view></view></view></template>
+

@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+      "rich-text-image": "./rich-text-image/rich-text-image"
+    }
+}

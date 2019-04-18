@@ -1,0 +1,1 @@
+<template name="22d27efe"><view class="_view page-share-title {{ h[ 0 ].rcl }}"><text class="_text">{{ h[ 2 ].t }}</text><text class="_text submit" data-cid="{{ _c || c }}" data-hid="{{ 3 }}" onTap="_pe">我也提交</text></view></template>

@@ -1,0 +1,125 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/connection/connection",
+    "pages/tabBar/msg/msg",
+    "pages/tabBar/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/my",
+      "pages": [
+        "jiaoYiMingXi/jiaoYiMingXi",
+        "bangDingJieGuo/bangDingJieGuo",
+        "woDeYHK/woDeYHK",
+        "tianJiaYHK/tianJiaYHK",
+        "bangDingYHK/bangDingYHK",
+        "yanZhengMa/yanZhengMa",
+        "bianJiZiLiao/bianJiZiLiao",
+        "xuanZeHangYe/xuanZeHangYe",
+        "qianBao/qianBao",
+        "tiXian/tiXian",
+        "woDeJianZheng/woDeJianZheng",
+        "woDeDongTai/woDeDongTai",
+        "sheZi/sheZi",
+        "jieShao/jieShao"
+      ]
+    },
+    {
+      "root": "pages/message",
+      "pages": [
+        "xiaoZhuShou/xiaoZhuShou",
+        "sheBinXZS/sheBinXZS",
+        "hongBao/hongBao"
+      ]
+    },
+    {
+      "root": "pages/news",
+      "pages": [
+        "newsDetail/newsDetail",
+        "hudong/hudong",
+        "toutiao/toutiao",
+        "articleDetail/articleDetail"
+      ]
+    },
+    {
+      "root": "pages/association",
+      "pages": [
+        "myAssociation/myAssociation",
+        "selectAsso/selectAsso",
+        "joinAsso/joinAsso",
+        "assoPay/assoPay",
+        "joinSuccess/joinSuccess",
+        "beFaQiRen/beFaQiRen",
+        "mailList/mailList",
+        "moreApp/moreApp",
+        "assoPoster/assoPoster",
+        "leader/leader",
+        "selectMember/selectMember",
+        "finance/finance",
+        "shenhe/shenhe",
+        "setup/setup",
+        "setupFee/setupFee",
+        "groupSend/groupSend",
+        "reportForm/reportForm",
+        "jiaBin/jiaBin",
+        "jianZheng/jianZheng",
+        "faBuJianZ/faBuJianZ",
+        "jianZhengDetail/jianZhengDetail",
+        "jianZhengJiLu/jianZhengJiLu",
+        "jianzSet/jianzSet",
+        "touPiao/touPiao",
+        "touPiaoOper/touPiaoOper",
+        "paiHangBang/paiHangBang",
+        "souSuo/souSuo",
+        "souSuoResult/souSuoResult",
+        "citySelect/citySelect"
+      ]
+    },
+    {
+      "root": "pages/template",
+      "pages": [
+        "number-box/number-box"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "社宾",
+    "navigationBarBackgroundColor": "#5788ff",
+    "backgroundColor": "#ffffff"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#5788ff",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "static/nav/home.png",
+        "selectedIconPath": "static/nav/home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/connection/connection",
+        "iconPath": "static/nav/renm.png",
+        "selectedIconPath": "static/nav/renm-on.png",
+        "text": "人脉"
+      },
+      {
+        "pagePath": "pages/tabBar/msg/msg",
+        "iconPath": "static/nav/msg.png",
+        "selectedIconPath": "static/nav/msg-on.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/tabBar/my/my",
+        "iconPath": "static/nav/my.png",
+        "selectedIconPath": "static/nav/my-on.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

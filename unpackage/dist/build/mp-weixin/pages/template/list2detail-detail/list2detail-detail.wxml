@@ -1,0 +1,2 @@
+<import src="./list2detail-detail.vue.wxml" />
+    <template is="2864a4f3" data="{{ ...$root['0'], $root }}"/>

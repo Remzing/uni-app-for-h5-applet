@@ -1,0 +1,2 @@
+<import src="./groupSend.vue.wxml" />
+    <template is="07ec22d8" data="{{ ...$root['0'], $root }}"/>

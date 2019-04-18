@@ -1,0 +1,2 @@
+<import src="./mailList.vue.wxml" />
+    <template is="16c116b0" data="{{ ...$root['0'], $root }}"/>

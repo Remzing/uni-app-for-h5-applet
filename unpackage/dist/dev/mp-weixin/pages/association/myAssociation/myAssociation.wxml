@@ -1,0 +1,2 @@
+<import src="./myAssociation.vue.wxml" />
+    <template is="91470318" data="{{ ...$root['0'], $root }}"/>

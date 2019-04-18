@@ -1,0 +1,4 @@
+<import src="/components/uni-popup.vue.wxml" />
+
+<template name="0674e9c6-default-0674e9c6-0"><view class="_view 0674e9c6" wx:if="{{popState==1}}"><view class="_view 0674e9c6 cash-inp"><view class="_view 0674e9c6 cash-inp-tit">充值余额</view><view class="_view 0674e9c6 cash-inp-set flex-cent"><view class="_view 0674e9c6">￥</view><input type="text" value="" placeholder-style="font-size: 36upx;color: #bbbbbb;" placeholder="请输入您要提现的金额" class="_input 0674e9c6" /></view><view class="_view 0674e9c6 cash-inp-tip">额外扣除￥0.10手续费（费率0.1%）</view></view><view class="_view 0674e9c6 join-btn pop-btn" style="margin-top: 30rpx;"><button class="_button 0674e9c6 conf-btn" type="primary" bindtap="handleProxy" data-eventid="{{'0674e9c6-2'}}" data-comkey="{{$k}}">微信支付</button></view></view></template>
+

@@ -1,0 +1,2 @@
+<import src="/components/page-head.vue.axml"/><template name="68c67784"><view class="_view {{ h[ 0 ].rcl }}"><template is="22d0fc1a" data="{{ ...$root[ cp + 0 ], $root, _t: _t || '' }}" /><view class="_view page-body"><view class="_view page-body-wrapper"><canvas class="_canvas canvas" canvas-id="canvas"></canvas></view></view></view></template>
+<template is="68c67784" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "详情",
+  "usingComponents": {
+    "rich-text": "/common/components/rich-text/rich-text"
+  }
+}

@@ -1,0 +1,2 @@
+<import src="./paiHangBang.vue.wxml" />
+    <template is="0585e0e4" data="{{ ...$root['0'], $root }}"/>

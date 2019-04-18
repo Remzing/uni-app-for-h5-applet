@@ -1,0 +1,2 @@
+<import src="/components/page-head.vue.axml"/><template name="6c4e777e"><view class="_view {{ h[ 0 ].rcl }}"><template is="22d0fc1a" data="{{ ...$root[ cp + 0 ], $root, _t: _t || '' }}" /><view class="_view uni-common-mt"><view class="_view"><map class="_map" latitude="{{ h[ 1005 ][ 'latitude' ] }}" longitude="{{ h[ 1005 ][ 'longitude' ] }}" markers="{{ h[ 1005 ][ 'markers' ] }}"></map></view></view></view></template>
+<template is="6c4e777e" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./assoPay.vue.wxml" />
+    <template is="ea2bd704" data="{{ ...$root['0'], $root }}"/>

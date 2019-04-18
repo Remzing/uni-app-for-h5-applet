@@ -1,0 +1,2 @@
+<import src="./joinAsso.vue.wxml" />
+    <template is="11429408" data="{{ ...$root['0'], $root }}"/>

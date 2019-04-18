@@ -1,0 +1,2 @@
+<import src="./uparse-md.vue.wxml" />
+    <template is="7e404a21" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./popup.vue.wxml" />
+    <template is="1d8cb9ad" data="{{ ...$root['0'], $root }}"/>

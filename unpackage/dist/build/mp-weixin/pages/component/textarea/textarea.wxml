@@ -1,0 +1,2 @@
+<import src="./textarea.vue.wxml" />
+    <template is="6070d984" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./sheZi.vue.wxml" />
+    <template is="447eeb05" data="{{ ...$root['0'], $root }}"/>

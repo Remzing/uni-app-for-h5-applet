@@ -1,0 +1,2 @@
+<import src="/components/page-head.vue.axml"/><template name="31a8ae7e"><view class="_view {{ h[ 0 ].rcl }}"><template is="22d0fc1a" data="{{ ...$root[ cp + 0 ], $root, _t: _t || '' }}" /><view class="_view uni-padding-wrap"><view class="_view uni-btn-v"><button class="_button" type="default" data-cid="{{ _c || c }}" data-hid="{{ 1005 }}" onTap="_pe">弹出action sheet</button></view></view></view></template>
+<template is="31a8ae7e" data="{{ ...$root['0'], $root }}"/>

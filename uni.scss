@@ -1,0 +1,414 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+/* 文字基本颜色 */
+$uni-text-color:#333;//基本色
+$uni-text-color-inverse:#fff;//反色
+$uni-text-color-grey:#999;//辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable:#c0c0c0;
+
+/* 背景颜色 */
+$uni-bg-color:#ffffff;
+$uni-bg-color-grey:#f8f8f8;
+$uni-bg-color-hover:#f1f1f1;//点击状态颜色
+$uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+
+/* 边框颜色 */
+$uni-border-color:#c8c7cc;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-sm:24upx;
+$uni-font-size-base:28upx;
+$uni-font-size-lg:32upx;
+
+/* 图片尺寸 */
+$uni-img-size-sm:40upx;
+$uni-img-size-base:52upx;
+$uni-img-size-lg:80upx;
+
+/* Border Radius */
+$uni-border-radius-sm: 4upx;
+$uni-border-radius-base: 6upx;
+$uni-border-radius-lg: 12upx;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 10px;
+$uni-spacing-row-base: 20upx;
+$uni-spacing-row-lg: 30upx;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 8upx;
+$uni-spacing-col-base: 16upx;
+$uni-spacing-col-lg: 24upx;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2C405A; // 文章标题颜色
+$uni-font-size-title:40upx;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle:36upx;
+$uni-color-paragraph: #3F536E; // 文章段落颜色
+$uni-font-size-paragraph:30upx;
+
+/* #ifdef H5*/
+.cont{
+	margin-bottom: 150upx;
+}
+/* #endif */
+.conf-btn{
+	background-image: linear-gradient(120deg, 
+		#39abf8 0%, 
+		#7184fe 100%);
+	box-shadow: 0px 3upx 3upx 0px 
+		rgba(109, 135, 254, 0.5);
+	border-radius: 8upx;
+	height: 56upx;
+	line-height: 56upx;
+	font-size: 24upx;
+	margin: 0 20upx;
+  padding: 0 20upx !important;
+}
+.rads{
+	height: 46upx;
+	line-height: 46upx;
+	border-radius: 23upx;
+	margin: 0 ;
+}
+.tjyd-btn{
+  height: 46upx;
+  line-height: 46upx;
+  padding: 0 20upx;
+  font-size: 24upx;
+  background-color: #ffffff !important;
+  border-radius: 23upx;
+  border: solid 1upx #5788ff;
+  color: #5788ff!important;
+}
+
+.see-all-mask{
+  width: 100%;
+	height: 140upx;
+  opacity: 0.99;
+  margin-top:-120upx;
+  background:linear-gradient(to bottom,rgba(255,255,255,0),#fff 50px)
+}
+.see-all-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28upx;
+	color: #5788ff;
+  margin-bottom:40upx;
+  .iconfont{
+    margin: 0 10upx;
+  }
+}
+.fuwenb{
+  padding: 20upx 30upx;
+  overflow: hidden;
+}
+.fuwenb-height{
+  height: 800px;
+}
+.head-city{
+  width: 100%;
+  height: 52upx;
+  color: #fff;
+  padding: 0 30upx;
+  background-color: #5788ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .icon-dingwei{
+    margin-right: 6upx;
+  }
+}
+.faqiren{
+  margin: 30upx 0;
+  text-align: center;
+  .faqiren-txt{
+    font-size: 24upx;
+    color: #555555;
+    line-height: 48upx;
+  }
+  .faqiren-act{
+    font-size: 24upx;
+    color: #969aa6;
+    line-height: 48upx;
+  }
+  .conf-btn{
+    height: 52upx;
+    line-height: 52upx;
+    border-radius: 25upx;
+    font-size: 24upx;
+    display: inline-block;
+    margin: 20upx auto 0;
+    
+  }
+}
+.no-data-show{
+  margin: 30upx 0;
+  text-align: center;
+  .iconfont{
+    font-size: 100upx;
+    color: #bbbbbb;
+    display:inline-block;
+    margin-bottom:-50rpx;
+    margin-top:-20rpx;
+
+  }
+  .nodata-txt{
+    font-size: 28upx;
+    line-height: 48upx;
+    color: #969aa6;
+  }
+}
+.asso-item{
+  background-color: #fff;
+  margin-bottom: 20upx;
+  .iconfont{
+    color: #b6b7b7;
+  }
+  .asso-info{
+    padding: 30upx;
+    .yijairu{
+      width: 30upx;
+      height: 100upx;
+      background-image: linear-gradient(120deg, 
+        #39abf8 0%, 
+        #7184fe 100%);
+      font-size: 20upx;
+      text-align: center;
+      color: #fff;
+    }
+    image{
+      width: 100upx;
+      height: 100upx;
+      background-color: #b6b7b7;
+    }
+    .asso-txt{
+      margin-left: 28upx;
+      >view:first-child{
+        font-size: 34upx;
+        line-height: 52upx;
+        font-weight: 700;
+      }
+      >view:nth-child(2){
+        font-size: 24upx;
+        line-height: 52upx;
+        color: #969aa6;
+        text{
+          margin-right: 18upx;
+        }
+      }
+    }
+  }
+  .asso-line{
+    width: 100%;
+    height: 2upx;
+    background-color: #e5e7eb;
+  }
+  .asso-jiaru{
+    padding: 20upx 0;
+    margin: 0 30upx;
+    font-size: 24upx;
+    >view{
+      margin-right: 10upx;
+    }
+    image{
+      width: 40upx;
+      height: 40upx;
+      border-radius: 40upx;
+      background-color: #b6b7b7;
+      margin-left: 12upx;
+    }
+  }
+}
+.more-asso{
+  .more-asso-txt{
+    font-size: 24upx;
+    margin: 0 40upx;
+  }
+  .more-asso-img{
+    padding: 20upx 40upx;
+    image{
+      width: 670upx;
+      height: 220upx;
+      background-color: #000000;
+      box-shadow: 0px 8px 12px 0px 
+        rgba(165, 168, 183, 0.5);
+      border-radius: 12px;
+    }
+  }
+}
+.bottext-set{
+  box-sizing: border-box;
+  min-height: calc(100vh - 60upx);
+}
+.bot-help{
+  height: 60upx;
+  line-height: 60upx;
+  font-size: 20upx;
+  color: #969aa6;
+  text-align: center;
+  >text{
+    margin-left: 12upx;
+  }
+}
+.join-btn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  .conf-btn{
+    height: 98upx;
+    line-height: 98upx;
+    background-image: linear-gradient(120deg, 
+      #39abf8 0%, 
+      #7184fe 100%);
+      margin:0;
+      border-radius: 0;
+      font-size: 36upx;
+  }
+}
+.join-btn-two{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  .join-btn-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 98upx;
+    border-radius: 0;
+    background-image: linear-gradient(120deg, 
+      #39abf8 0%, 
+      #7184fe 100%);
+  }
+  .join-btn-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 98upx;
+    border-radius: 0;
+    background-image: linear-gradient(120deg, 
+      #f54500 0%, 
+      #d70606 100%);
+  }
+  .btn-two-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    >view:first-child{
+      font-size: 34upx;
+      line-height: 30upx;
+    }
+    >view:last-child{
+      font-size: 24upx;
+    }
+  }
+}
+.pingd-txt{
+  height: 74upx;
+  background-color: #f1f3f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30upx;
+  font-size: 24upx;
+  view{
+    font-size: 24upx;
+  }
+  .iconfont{
+    margin: 0 8upx;
+  }
+  color: #969aa6;
+}
+// 表单公共样式 input  textarea
+.setup-item{
+  background-color: #fff;
+  height: 110upx;
+  padding: 0 30upx;
+  border-bottom: #e5e7eb solid 1upx; 
+  .setup-item-left{
+    font-size: 30upx;
+    .iconfont{
+      font-size: 34upx;
+      margin-right: 10upx;
+    }
+  }
+  .setup-item-right{
+    text{
+      font-size: 30upx;
+      color: #bbbbbb;
+    }
+    input{
+      text-align: right;
+    }
+    .icon-youjiantou{
+      font-size: 34upx;
+      color: #b6b7b7;
+      margin-left: 20upx;
+    }
+  }
+}
+.set-area{
+  background-color: #fff;
+  padding: 30upx;
+  textarea{
+    margin: 20upx auto 0;
+    height: 200upx;
+  }
+  .countnum{
+    text-align: right;
+  }
+}
+.comm-tips{
+  padding: 20upx 30upx;
+  .iconfont{
+    font-size: 36upx;
+    color: #5788ff;
+    margin-right: 10upx;
+  }
+  text{
+    font-size: 24upx;
+    color: #969aa6;
+  }
+}
+  
+.card {
+  box-shadow: 0px 8px 12px 0px 
+			rgba(151, 160, 202, 0.5);
+}

@@ -1,0 +1,2 @@
+<import src="./grid-pagination.vue.wxml" />
+    <template is="232e4517" data="{{ ...$root['0'], $root }}"/>

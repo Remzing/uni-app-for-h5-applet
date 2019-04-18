@@ -1,0 +1,1 @@
+<template name="31ab4644"><view class="_view qrcode {{ h[ 0 ].rcl }}"><image a:if="{{ h[ 1 ]._if }}" class="_image image" style="{{ h[ 1 ].st }}" src="{{ h[ 1 ][ 'src' ] }}"></image></view></template>
